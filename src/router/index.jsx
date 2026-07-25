@@ -1,5 +1,5 @@
 import React from "react";
-import { createBrowserRouter } from "react-router-dom";
+import { createHashRouter } from "react-router-dom";
 import MainLayout from "../layouts/MainLayout";
 import Home from "../pages/Home/Home";
 import About from "../pages/About/About";
@@ -13,7 +13,7 @@ import PrivacyPolicy from "../pages/Legal/PrivacyPolicy";
 import TermsAndConditions from "../pages/Legal/TermsAndConditions";
 import NotFound from "../pages/NotFound/NotFound";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <MainLayout />,
