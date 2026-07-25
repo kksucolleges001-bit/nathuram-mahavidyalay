@@ -39,7 +39,7 @@ const LoadingScreen = () => {
           initial={{ opacity: 1 }}
           exit={{ opacity: 0, scale: 1.05 }}
           transition={{ duration: 0.6, ease: "easeInOut" }}
-          className="fixed inset-0 z-[100] bg-gradient-to-br from-slate-900 via-gray-900 to-blue-950 flex flex-col items-center justify-center p-4 overflow-hidden font-inter select-none"
+          className="fixed inset-0 z-[100] bg-gradient-to-br from-slate-50 via-white to-blue-50 dark:from-gray-950 dark:via-gray-900 dark:to-slate-900 flex flex-col items-center justify-center p-4 overflow-hidden font-inter select-none"
         >
           {/* Ambient Floating Background Glows */}
           <div className="absolute w-96 h-96 bg-emerald-500/15 rounded-full blur-[120px] -top-20 -left-20 pointer-events-none animate-pulse" style={{ animationDuration: '4s' }} />
