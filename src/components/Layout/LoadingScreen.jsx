@@ -81,7 +81,7 @@ const LoadingScreen = () => {
               <motion.img
                 animate={{ scale: [0.95, 1.05, 0.95] }}
                 transition={{ repeat: Infinity, duration: 2.5, ease: "easeInOut" }}
-                src="/logo.png"
+                src={`${import.meta.env.BASE_URL}logo.png`}
                 alt="Shri Nathuram Maharaj Mahavidyalaya Logo"
                 className="w-32 h-32 md:w-36 md:h-36 object-contain filter drop-shadow-md z-10"
               />

@@ -25,7 +25,7 @@ const Navbar = () => {
         {/* Brand Area */}
         <div className="flex items-center justify-between lg:justify-start flex-1 min-w-0 pr-1 sm:pr-4 gap-1 sm:gap-3">
           <Link to="/" className="flex items-center gap-1 sm:gap-3 flex-1 min-w-0 group">
-            <img src="/logo.png" alt="SNMM Logo" className="w-8 h-8 sm:w-11 sm:h-11 md:w-14 md:h-14 object-contain drop-shadow-sm shrink-0 group-hover:scale-105 transition-transform duration-300" />
+            <img src={`${import.meta.env.BASE_URL}logo.png`} alt="SNMM Logo" className="w-8 h-8 sm:w-11 sm:h-11 md:w-14 md:h-14 object-contain drop-shadow-sm shrink-0 group-hover:scale-105 transition-transform duration-300" />
             <div className="flex flex-col justify-center flex-1 min-w-0 text-center lg:text-left px-0.5">  
               <h1 className="text-[11.5px] sm:text-sm md:text-base lg:text-xl font-bold font-poppins text-primary dark:text-white leading-[1.2] sm:leading-snug group-hover:text-secondary transition-colors line-clamp-2 lg:line-clamp-none">
                 Shri Nathuram Maharaj Mahavidyalaya
@@ -38,7 +38,7 @@ const Navbar = () => {
           
           {/* University Badge */}
           <div className="flex items-center pl-1 sm:pl-3 lg:pl-4 lg:border-l lg:border-gray-200 lg:dark:border-gray-700 shrink-0">
-            <img src="/kksulogo.png" alt="KKSU Logo" title="Affiliated to KKSU" className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 object-contain drop-shadow-sm opacity-90 hover:opacity-100 transition-opacity shrink-0" />
+            <img src={`${import.meta.env.BASE_URL}kksulogo.png`} alt="KKSU Logo" title="Affiliated to KKSU" className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 object-contain drop-shadow-sm opacity-90 hover:opacity-100 transition-opacity shrink-0" />
           </div>
         </div>
 
