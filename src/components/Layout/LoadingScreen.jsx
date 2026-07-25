@@ -36,42 +36,27 @@ const LoadingScreen = () => {
       {loading && (
         <motion.div
           initial={{ opacity: 1 }}
-          exit={{ opacity: 0, transition: { duration: 0.6, ease: "easeInOut" } }}
-          className="fixed inset-0 z-[100] bg-gradient-to-br from-slate-50 via-white to-blue-50 dark:from-gray-950 dark:via-gray-900 dark:to-slate-900 flex flex-col items-center justify-center overflow-hidden px-4"
+          exit={{ opacity: 0, scale: 1.05 }}
+          transition={{ duration: 0.6, ease: "easeInOut" }}
+          className="fixed inset-0 z-[100] bg-gradient-to-br from-slate-900 via-gray-900 to-blue-950 flex flex-col items-center justify-center p-4 overflow-hidden font-inter select-none"
         >
-          {/* Animated Background Glowing Orbs */}
-          <motion.div
-            animate={{
-              scale: [1, 1.2, 1],
-              x: [-20, 20, -20],
-              y: [-10, 15, -10],
-            }}
-            transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
-            className="absolute top-1/4 left-1/4 w-72 h-72 bg-blue-500/15 dark:bg-blue-500/10 rounded-full blur-3xl pointer-events-none"
-          />
-          <motion.div
-            animate={{
-              scale: [1.2, 1, 1.2],
-              x: [20, -20, 20],
-              y: [15, -10, 15],
-            }}
-            transition={{ duration: 7, repeat: Infinity, ease: "easeInOut" }}
-            className="absolute bottom-1/4 right-1/4 w-72 h-72 bg-emerald-500/15 dark:bg-emerald-500/10 rounded-full blur-3xl pointer-events-none"
-          />
+          {/* Ambient Floating Background Glows */}
+          <div className="absolute w-96 h-96 bg-emerald-500/15 rounded-full blur-[120px] -top-20 -left-20 pointer-events-none animate-pulse" style={{ animationDuration: '4s' }} />
+          <div className="absolute w-96 h-96 bg-blue-500/15 rounded-full blur-[120px] -bottom-20 -right-20 pointer-events-none animate-pulse" style={{ animationDuration: '6s' }} />
 
-          {/* Center Emblem Container with Rotating Rings */}
-          <div className="relative flex items-center justify-center mb-8 w-56 h-56 md:w-64 md:h-64">
-            {/* Outer Rotating Dashed Ring */}
+          {/* Core Dynamic Showcase Ring & Logo */}
+          <div className="relative w-48 h-48 sm:w-56 sm:h-56 flex items-center justify-center mb-8">
+            {/* Outer Orbiting Ring */}
             <motion.div
               animate={{ rotate: 360 }}
-              transition={{ repeat: Infinity, duration: 14, ease: "linear" }}
-              className="absolute inset-0 rounded-full border-[3px] border-dashed border-blue-400/40 dark:border-blue-500/30 w-full h-full"
+              transition={{ repeat: Infinity, duration: 8, ease: "linear" }}
+              className="absolute inset-0 rounded-full border-2 border-dashed border-emerald-400/40 dark:border-emerald-300/40"
             />
-
-            {/* Inner Counter-Rotating Gradient Arc */}
+            
+            {/* Counter-rotating Glow Ring */}
             <motion.div
               animate={{ rotate: -360 }}
-              transition={{ repeat: Infinity, duration: 8, ease: "linear" }}
+              transition={{ repeat: Infinity, duration: 12, ease: "linear" }}
               className="absolute inset-3 rounded-full border-2 border-transparent border-t-emerald-500 border-r-blue-600 dark:border-t-emerald-400 dark:border-r-blue-400 opacity-85"
             />
 
@@ -81,13 +66,13 @@ const LoadingScreen = () => {
               <motion.img
                 animate={{ scale: [0.95, 1.05, 0.95] }}
                 transition={{ repeat: Infinity, duration: 2.5, ease: "easeInOut" }}
-                src={`${import.meta.env.BASE_URL}logo.png`}
+                src={logo}
                 alt="Shri Nathuram Maharaj Mahavidyalaya Logo"
                 className="w-32 h-32 md:w-36 md:h-36 object-contain filter drop-shadow-md z-10"
               />
             </div>
           </div>
-
+          
           {/* Branding Typography */}
           <div className="text-center max-w-lg z-10 mb-8">
             <motion.h1

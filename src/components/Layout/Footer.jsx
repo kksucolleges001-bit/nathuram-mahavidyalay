@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaMapMarkerAlt, FaPhone, FaEnvelope, FaChevronRight } from 'react-icons/fa';
+import logo from '../../assets/logo.png';
+import kksulogo from '../../assets/kksulogo.png';
 
 const Footer = () => {
   return (
@@ -12,11 +14,11 @@ const Footer = () => {
         {/* Brand & Contact */}
         <div className="lg:col-span-5">
           <div className="flex items-center mb-6 bg-gray-800/30 p-3 rounded-xl border border-gray-700/50 w-fit">
-            <img src={`${import.meta.env.BASE_URL}logo.png`} alt="SNMM Logo" className="w-12 h-12 object-contain bg-white/90 backdrop-blur-sm rounded-lg p-1.5 shadow-md shrink-0" />
+            <img src={logo} alt="SNMM Logo" className="w-12 h-12 object-contain bg-white/90 backdrop-blur-sm rounded-lg p-1.5 shadow-md shrink-0" />
             <h2 className="text-lg md:text-xl font-bold font-poppins text-white leading-tight ml-3 mr-4 pr-4 border-r border-gray-700/50">
               Shri Nathuram Maharaj<br className="hidden sm:block" /> Mahavidyalaya
             </h2>
-            <img src={`${import.meta.env.BASE_URL}kksulogo.png`} alt="KKSU Logo" title="Affiliated to KKSU" className="w-10 h-10 object-contain bg-white/90 backdrop-blur-sm rounded-lg p-1 shadow-md shrink-0 opacity-90" />
+            <img src={kksulogo} alt="KKSU Logo" title="Affiliated to KKSU" className="w-10 h-10 object-contain bg-white/90 backdrop-blur-sm rounded-lg p-1 shadow-md shrink-0 opacity-90" />
           </div>
           <p className="text-sm mb-6 text-gray-400 leading-relaxed pr-4">
             Affiliated to Kavikulaguru Kalidas Sanskrit University, Ramtek, Nagpur. Maharashtra Government Recognized.
