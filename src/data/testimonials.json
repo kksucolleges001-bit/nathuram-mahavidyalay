@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "Alice Johnson", "role": "Student, B.Tech CS", "text": "The faculty here is amazing. The practical approach to learning has really helped me." },
+  { "id": 2, "name": "Mark Smith", "role": "Alumni, 2024 Batch", "text": "I got placed in a top MNC thanks to the excellent placement cell and industry-oriented curriculum." },
+  { "id": 3, "name": "Mrs. Davis", "role": "Parent", "text": "The campus environment is very safe and encouraging. I'm glad my child studies here." }
+]

@@ -1,0 +1,77 @@
+{
+  "address": {
+    "street": "At Kehal Tanda, Kehal, Tal. Jiintur",
+    "city": "Parbhani",
+    "state": "Maharashtra",
+    "country": "India",
+    "pinCode": "431510",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118220.19896766488!2d76.66699195977935!3d19.467471900000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd06b6ebdbbcf2f%3A0xb30e38a379103c80!2sJintur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+  },
+  "workingHours": {
+    "weekdays": "9:00 AM - 5:00 PM",
+    "saturday": "9:00 AM - 1:00 PM",
+    "sunday": "Closed",
+    "note": "Office remains closed on all National and Gazetted Holidays."
+  },
+  "mainOffices": [
+    {
+      "name": "Principal Office",
+      "phone": "9421425663",
+      "email": "shrinathurammcollegekehal@gmail.com",
+      "icon": "FaBuilding"
+    },
+    {
+      "name": "Admissions Contact (Yogesh Sir)",
+      "phone": "7744882353",
+      "email": "makesocialharmony@gmail.com",
+      "icon": "FaUserGraduate"
+    },
+    {
+      "name": "Admissions Contact (Mangesh Sir)",
+      "phone": "7378835218",
+      "email": "gypratishthanngo@gmail.com",
+      "icon": "FaPhoneAlt"
+    },
+    {
+      "name": "Admissions Contact (Kundlik Sir)",
+      "phone": "9130858358",
+      "email": "shrinathurammcollegekehal@gmail.com",
+      "icon": "FaPhoneAlt"
+    },
+    {
+      "name": "Admissions Contact (Shailesh Sir)",
+      "phone": "7822984415",
+      "email": "shrinathurammcollegekehal@gmail.com",
+      "icon": "FaPhoneAlt"
+    }
+  ],
+  "importantContacts": [
+    { "role": "Principal", "name": "Dr. Balaji Munde", "phone": "9421425663" },
+    { "role": "Admissions", "name": "Yogesh Sir", "phone": "7744882353" },
+    { "role": "Admissions", "name": "Mangesh Sir", "phone": "7378835218" },
+    { "role": "Admissions", "name": "Kundlik Sir", "phone": "9130858358" },
+    { "role": "Admissions", "name": "Shailesh Sir", "phone": "7822984415" }
+  ],
+  "departments": [],
+  "emergency": [],
+  "campusVisit": {
+    "guidelines": "Visitors must carry a valid ID proof.",
+    "parking": "Parking is available.",
+    "reception": "The main reception is located at the entrance.",
+    "timings": "Visitors are allowed during college hours."
+  },
+  "faqs": [
+    {
+      "question": "Where is the college located?",
+      "answer": "At Kehal Tanda, Kehal, Tal. Jiintur, Dist. Parbhani 431510"
+    },
+    {
+      "question": "How can I contact the admissions office?",
+      "answer": "You can reach the admissions office at 7744882353, 7378835218, 9130858358, or 7822984415."
+    }
+  ],
+  "socialMedia": [
+    { "platform": "Facebook", "url": "#", "icon": "FaFacebookF", "color": "bg-blue-600" },
+    { "platform": "WhatsApp", "url": "https://wa.me/917744882353", "icon": "FaWhatsapp", "color": "bg-green-500" }
+  ]
+}

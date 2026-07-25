@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+/* Force manual dark mode toggling instead of OS media query */
+@custom-variant dark (&:where(.dark, .dark *));
+@theme {
+  /* Premium Color Palette */
+  --color-primary: #1A365D; /* Navy Blue */
+  --color-secondary: #FF8C00; /* Saffron / Orange */
+  --color-burgundy: #FF4500; /* Bright Orange/Red */
+  --color-walnut: #8CC63F; /* Green from logo */
+  --color-champagne: #F0F4F8; /* Light blueish white */
+  
+  --color-success: #2E7D32;
+  --color-danger: #710927; 
+
+  --font-poppins: "Poppins", serif; /* Switching to serif feel for headings if preferred, but keeping Poppins as sans is fine. We will stick to Poppins but adjust weights */
+  --font-inter: "Inter", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply font-inter bg-gray-50 text-gray-800 antialiased selection:bg-secondary selection:text-primary relative;
+    /* Subtle premium noise/mesh background can be simulated via gradient */
+    background-image: radial-gradient(at 0% 0%, rgba(255, 140, 0, 0.10) 0px, transparent 50%),
+                      radial-gradient(at 100% 0%, rgba(26, 54, 93, 0.05) 0px, transparent 50%);
+    background-attachment: fixed;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-poppins font-bold text-primary tracking-tight;
+  }
+}
+
+@layer utilities {
+  /* Premium Buttons */
+  .btn-primary {
+    @apply relative overflow-hidden bg-gradient-to-r from-primary to-indigo-900 text-white px-6 py-2.5 rounded-lg font-semibold transition-all duration-300 shadow-md hover:shadow-xl hover:shadow-primary/30 hover:-translate-y-1 active:translate-y-0 active:shadow-md border border-transparent hover:border-indigo-400/30;
+  }
+  .btn-secondary {
+    @apply relative overflow-hidden bg-gradient-to-r from-secondary to-yellow-600 text-white px-6 py-2.5 rounded-lg font-semibold transition-all duration-300 shadow-md hover:shadow-xl hover:shadow-secondary/30 hover:-translate-y-1 active:translate-y-0 active:shadow-md border border-transparent hover:border-yellow-300/50;
+  }
+  .btn-outline {
+    @apply border-2 border-primary text-primary px-6 py-2.5 rounded-lg font-semibold transition-all duration-300 hover:bg-primary hover:text-white hover:shadow-lg hover:shadow-primary/20 hover:-translate-y-1;
+  }
+
+  /* Glassmorphic Cards */
+  .card {
+    @apply bg-white/80 backdrop-blur-xl rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-white/50 overflow-hidden transition-all duration-300 hover:shadow-[0_20px_40px_rgb(45,44,74,0.08)] hover:-translate-y-1 hover:border-champagne/60;
+  }
+  .card-body {
+    @apply p-8;
+  }
+
+  /* Glass Navbar & Utilities */
+  .glass-panel {
+    @apply bg-white/70 backdrop-blur-xl border border-white/40 shadow-lg;
+  }
+  .glass-panel-dark {
+    @apply bg-primary/80 backdrop-blur-2xl border border-white/10 shadow-2xl;
+  }
+
+  /* Reusable section layout */
+  .section-padding {
+    @apply py-20 md:py-32;
+  }
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  /* Premium Scrollbar */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-champagne/60 rounded-full border-2 border-transparent bg-clip-padding transition-colors;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    @apply bg-secondary;
+  }
+  
+  .animate-marquee {
+    animation: marquee 20s linear infinite;
+  }
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}

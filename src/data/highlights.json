@@ -1,0 +1,8 @@
+[
+  { "id": 1, "title": "Central Library", "icon": "FaBook", "desc": "100,000+ volumes and digital resources." },
+  { "id": 2, "title": "Smart Classrooms", "icon": "FaChalkboardTeacher", "desc": "Interactive and technology-enabled learning." },
+  { "id": 3, "title": "Advanced Labs", "icon": "FaFlask", "desc": "State-of-the-art research laboratories." },
+  { "id": 4, "title": "Sports Complex", "icon": "FaFutbol", "desc": "Indoor and outdoor sports facilities." },
+  { "id": 5, "title": "Hostel", "icon": "FaBed", "desc": "Separate hostels for boys and girls." },
+  { "id": 6, "title": "Transport", "icon": "FaBus", "desc": "City-wide transport facility." }
+]

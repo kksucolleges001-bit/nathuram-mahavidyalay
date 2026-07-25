@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "title": "Admissions 2026-27",
+    "description": "Embark on a journey of academic excellence in Civil Services and Kirtan Shastra.",
+    "bgImage": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80",
+    "badgeText": "Admissions Open"
+  },
+  "overview": {
+    "welcome": "Welcome to Shri Nathuram Maharaj Mahavidyalaya. We are committed to nurturing talent and shaping the future of our students.",
+    "highlights": [
+      { "title": "Maharashtra Govt. Recognized", "icon": "FaAward" },
+      { "title": "Affiliated to K.K.S.U, Ramtek", "icon": "FaUniversity" },
+      { "title": "Civil Services Prep", "icon": "FaBookReader" },
+      { "title": "Kirtan Shastra", "icon": "FaMusic" }
+    ]
+  },
+  "process": [
+    { "step": 1, "title": "Contact Admissions", "description": "Call our admission counselors: Yogesh Sir, Mangesh Sir, Kundlik Sir or Shailesh Sir.", "icon": "FaPhoneAlt" },
+    { "step": 2, "title": "Visit College", "description": "Visit our campus at Kehal Tanda, Kehal, Tal. Jiintur.", "icon": "FaBuilding" },
+    { "step": 3, "title": "Submit Documents", "description": "Submit required academic documents.", "icon": "FaFolderOpen" },
+    { "step": 4, "title": "Admission Confirmation", "description": "Complete admission formalities.", "icon": "FaCheckCircle" }
+  ],
+  "programsOpen": [
+    { "name": "B.A. (Civil Services)", "duration": "3 Years", "eligibility": "10+2 / HSC Pass", "intake": 60, "department": "Arts" },
+    { "name": "B.A. (Kirtan Shastra)", "duration": "3 Years", "eligibility": "10+2 / HSC Pass", "intake": 60, "department": "Arts" }
+  ],
+  "eligibility": [
+    { "level": "Undergraduate (UG)", "qualification": "10+2 or equivalent", "percentage": "Pass", "subjects": "Any Stream", "age": "No Bar" }
+  ],
+  "documents": [
+    "10th Marksheet & Certificate",
+    "12th Marksheet & Certificate",
+    "Transfer Certificate (TC)",
+    "Caste Certificate (if applicable)",
+    "Aadhar Card",
+    "Passport Size Photographs"
+  ],
+  "feeStructure": [],
+  "otherFees": {},
+  "reservation": [],
+  "scholarships": [
+    { "name": "Govt Scholarship", "provider": "Government of India", "eligibility": "ST, SC, VJNT, OBC & OPEN", "benefit": "Government Scholarship as applicable" }
+  ],
+  "dates": [],
+  "prospectus": null,
+  "faqs": [
+    { "question": "How do I apply for admission?", "answer": "You can apply by visiting the college or calling the admission contacts provided." }
+  ],
+  "contact": {
+    "office": "Admission Cell",
+    "phone": "7744882353, 7378835218",
+    "email": "makesocialharmony@gmail.com",
+    "workingHours": "9:00 AM - 5:00 PM",
+    "location": "At Kehal Tanda, Kehal, Tal. Jiintur, Dist. Parbhani 431510",
+    "counsellor": "Yogesh Sir / Mangesh Sir"
+  }
+}

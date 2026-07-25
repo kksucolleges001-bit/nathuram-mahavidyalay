@@ -1,0 +1,54 @@
+{
+  "hero": {
+    "title": "Administration",
+    "description": "Leadership and Governance of Shri Nathuram Maharaj Mahavidyalaya.",
+    "bgImage": "https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80"
+  },
+  "overview": {
+    "introduction": "Shri Nathuram Maharaj Mahavidyalaya is committed to excellence in education.",
+    "vision": "To create a seamless, student-centric framework.",
+    "governanceModel": "We follow a student-first approach."
+  },
+  "principal": {
+    "name": "Dr. Balaji Munde",
+    "qualification": "Principal",
+    "designation": "Principal",
+    "experience": "",
+    "email": "shrinathurammcollegekehal@gmail.com",
+    "phone": "9421425663",
+    "message": "Welcome to Shri Nathuram Maharaj Mahavidyalaya.",
+    "researchInterests": [],
+    "awards": [],
+    "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+  },
+  "vicePrincipal": null,
+  "registrar": null,
+  "deans": [],
+  "hods": [],
+  "governingBody": [
+    { "id": 1, "name": "Dr. Balaji Munde", "designation": "Principal", "role": "Principal", "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" }
+  ],
+  "officeInfo": {
+    "timings": "09:00 AM to 05:00 PM",
+    "workingDays": "Monday to Saturday",
+    "contact": "7744882353",
+    "email": "makesocialharmony@gmail.com",
+    "location": "At Kehal Tanda, Kehal, Tal. Jiintur",
+    "reception": "For general queries, contact the admissions office."
+  },
+  "staff": [
+    { "id": 1, "name": "Yogesh Sir", "position": "Admissions Contact", "department": "Administration", "contact": "7744882353", "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" },
+    { "id": 2, "name": "Mangesh Sir", "position": "Admissions Contact", "department": "Administration", "contact": "7378835218", "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" },
+    { "id": 3, "name": "Kundlik Sir", "position": "Admissions Contact", "department": "Administration", "contact": "9130858358", "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" },
+    { "id": 4, "name": "Shailesh Sir", "position": "Admissions Contact", "department": "Administration", "contact": "7822984415", "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" }
+  ],
+  "committees": [],
+  "policies": [],
+  "contact": {
+    "address": "At Kehal Tanda, Kehal, Tal. Jiintur, Dist. Parbhani 431510",
+    "phone": "9421425663",
+    "email": "shrinathurammcollegekehal@gmail.com",
+    "workingHours": "9:00 AM - 5:00 PM",
+    "emergencyContact": "7744882353"
+  }
+}

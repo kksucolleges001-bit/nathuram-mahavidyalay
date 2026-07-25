@@ -1,0 +1,106 @@
+{
+  "hero": {
+    "title": "Mandatory Disclosures",
+    "description": "Information as per regulatory guidelines.",
+    "bgImage": "https://images.unsplash.com/photo-1450101499163-c8848c66cb85?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80",
+    "badges": ["UGC Recognized", "NAAC Accredited"]
+  },
+  "introduction": {
+    "purpose": "To ensure complete transparency in our academic and administrative operations, SNMM College provides all mandatory disclosures as per the statutory requirements.",
+    "commitment": "We are fully committed to providing accurate and up-to-date information in accordance with UGC, AICTE, and State Government norms.",
+    "highlights": [
+      { "icon": "FaBook", "title": "Academic Transparency" },
+      { "icon": "FaMoneyBillWave", "title": "Financial Integrity" },
+      { "icon": "FaUsers", "title": "Student Welfare" },
+      { "icon": "FaUniversity", "title": "Statutory Compliance" }
+    ]
+  },
+  "institutionalInfo": {
+    "name": "Shri Nathuram Maharaj Mahavidyalaya",
+    "address": "At Kehal Tanda, Kehal, Tal. Jiintur, Dist. Parbhani 431510",
+    "type": "Affiliated College",
+    "status": "Private Un-Aided",
+    "yearOfEstablishment": "2010"
+  },
+  "affiliation": {
+    "university": "Kavikulaguru Kalidas Sanskrit University, Ramtek",
+    "affiliationType": "Permanent",
+    "validUpto": "2028-2029"
+  },
+  "approvals": [
+    { "body": "UGC", "status": "Approved under 2(f) and 12(B)" },
+    { "body": "Maharashtra Govt.", "status": "NOC Received" }
+  ],
+  "committees": [
+    { "name": "Anti-Ragging Committee", "head": "Dr. V. K. Sharma", "contact": "antiragging@snmm.edu.in" },
+    { "name": "Internal Complaints Committee", "head": "Prof. S. R. Patil", "contact": "icc@snmm.edu.in" }
+  ],
+  "faculty": {
+    "total": 45,
+    "professors": 5,
+    "associate": 10,
+    "assistant": 30,
+    "phdHolders": 12,
+    "studentRatio": "1:20"
+  },
+  "students": {
+    "total": 1050,
+    "ug": 800,
+    "pg": 200,
+    "phd": 50,
+    "placementRate": "85%",
+    "passPercentage": "92%",
+    "totalIntake": 1200,
+    "currentlyEnrolled": 1050
+  },
+  "infrastructure": [
+    { "facility": "Library", "area": "5000 sq.ft", "details": "10,000+ books, Digital Library" },
+    { "facility": "Computer Labs", "area": "2000 sq.ft", "details": "100+ PCs with High-Speed Internet" }
+  ],
+  "fees": [
+    { "course": "BA", "tuition": "₹5,000", "hostel": "₹20,000", "other": "₹1,500" },
+    { "course": "BSc", "tuition": "₹8,000", "hostel": "₹20,000", "other": "₹2,500" },
+    { "course": "BCom", "tuition": "₹6,000", "hostel": "₹20,000", "other": "₹1,800" },
+    { "course": "MA", "tuition": "₹10,000", "hostel": "₹25,000", "other": "₹3,000" }
+  ],
+  "financials": {
+    "grants": "₹2.5 Cr",
+    "research": "₹50 L",
+    "scholarships": "₹1.2 Cr",
+    "budget": "₹15 Cr",
+    "audited": true,
+    "lastAuditYear": "2024-2025"
+  },
+  "academicInfo": {
+    "departments": 15,
+    "programs": 25,
+    "intake": 1200,
+    "cbcs": "Fully implemented across all UG and PG programs as per University guidelines.",
+    "nep": "Integrated effectively as per State Government and UGC guidelines.",
+    "accreditation": "NAAC B++ Grade"
+  },
+  "policies": [
+    { "title": "Anti-Ragging Policy", "link": "#" },
+    { "title": "Women Empowerment Cell", "link": "#" }
+  ],
+  "rti": {
+    "officer": "Mr. A. B. Deshmukh",
+    "designation": "Public Information Officer",
+    "contact": "rti@snmm.edu.in"
+  },
+  "downloads": [
+    { "title": "Mandatory Disclosure Report 2025", "type": "PDF", "size": "2.4 MB" },
+    { "title": "Audit Report 2024", "type": "PDF", "size": "1.1 MB" }
+  ],
+  "reports": [
+    { "year": "2024-25", "title": "Annual Report" }
+  ],
+  "contact": {
+    "email": "shrinathurammcollegekehal@gmail.com",
+    "phone": "9421425663"
+  },
+  "faqs": [
+    { "question": "Is the college UGC recognized?", "answer": "Yes, it is recognized under sections 2(f) and 12(B) of the UGC Act." }
+  ],
+  "sections": []
+}

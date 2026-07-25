@@ -1,0 +1,58 @@
+{
+  "hero": {
+    "title": "About Shri Nathuram Maharaj Mahavidyalaya",
+    "description": "Providing quality education with a focus on Civil Services and Kirtan Shastra.",
+    "bgImage": "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80"
+  },
+  "overview": {
+    "introduction": "Shri Nathuram Maharaj Mahavidyalaya is a recognized institution of higher learning affiliated to Kavikulaguru Kalidas Sanskrit University, Ramtek, Nagpur. We specialize in B.A. programs geared towards Civil Services (MPSC/UPSC) and Kirtan Shastra.",
+    "history": "Dedicated to providing excellent academic programs in the heart of Parbhani district.",
+    "established": "Recent",
+    "affiliated": "Kavikulaguru Kalidas Sanskrit University",
+    "campusArea": "Kehal Tanda",
+    "studentStrength": "-",
+    "facultyCount": "-"
+  },
+  "visionMission": {
+    "vision": "To empower students with the knowledge and values needed to excel in civil services and preserve cultural heritage through Kirtan Shastra.",
+    "mission": "To impart high-quality education and training for competitive exams while promoting traditional knowledge systems."
+  },
+  "leadership": {
+    "principal": {
+      "name": "Dr. Balaji Munde",
+      "designation": "Principal",
+      "message": "Welcome to our college. We are committed to shaping the future of our students and guiding them towards success in their chosen paths.",
+      "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+    }
+  },
+  "timeline": [],
+  "highlights": {
+    "students": 500,
+    "faculty": 20,
+    "departments": 2,
+    "researchPapers": 0,
+    "placementRate": 90,
+    "libraryBooks": 5000
+  },
+  "whyChooseUs": [
+    { "id": 1, "title": "Civil Services Focus", "description": "Curriculum tailored for MPSC and UPSC exams.", "icon": "FaBook" },
+    { "id": 2, "title": "Unique Courses", "description": "Specialized B.A. in Kirtan Shastra.", "icon": "FaMusic" },
+    { "id": 3, "title": "Govt. Scholarships", "description": "ST, SC, VJNT, OBC & OPEN scholarships available.", "icon": "FaGraduationCap" },
+    { "id": 4, "title": "Expert Guidance", "description": "Learn from experienced faculty.", "icon": "FaChalkboardTeacher" }
+  ],
+  "approvals": [
+    { "id": 1, "title": "Govt. Recognized", "description": "Maharashtra Government Recognized", "logo": "FaCheckCircle" },
+    { "id": 2, "title": "Affiliated", "description": "Kavikulaguru Kalidas Sanskrit University", "logo": "FaUniversity" }
+  ],
+  "coreValues": [
+    { "title": "Dedication", "desc": "Commitment to academic excellence." },
+    { "title": "Culture", "desc": "Preserving and promoting traditional values." }
+  ],
+  "objectives": [
+    "To provide targeted education for civil services aspirants.",
+    "To promote the study of Kirtan Shastra.",
+    "To ensure access to education for all through scholarships."
+  ],
+  "awards": [],
+  "gallery": []
+}

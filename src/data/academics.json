@@ -1,0 +1,63 @@
+{
+  "hero": {
+    "title": "Academics",
+    "description": "Excellence in Civil Services Preparation and Kirtan Shastra.",
+    "bgImage": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80"
+  },
+  "overview": {
+    "introduction": "The academic framework at Shri Nathuram Maharaj Mahavidyalaya is designed to foster comprehensive understanding.",
+    "highlights": [
+      { "title": "B.A. Civil Services", "icon": "FaBookReader" },
+      { "title": "B.A. Kirtan Shastra", "icon": "FaMusic" }
+    ]
+  },
+  "curriculum": {
+    "title": "Curriculum",
+    "description": "Our curriculum is tailored for competitive exams and traditional studies.",
+    "features": [
+      "MPSC / UPSC focused subjects",
+      "Traditional Kirtan studies"
+    ]
+  },
+  "programs": [
+    {
+      "id": 1,
+      "name": "B.A. (Civil Services)",
+      "duration": "3 Years",
+      "eligibility": "10+2 / HSC Pass",
+      "intake": 60
+    },
+    {
+      "id": 2,
+      "name": "B.A. (Kirtan Shastra)",
+      "duration": "3 Years",
+      "eligibility": "10+2 / HSC Pass",
+      "intake": 60
+    }
+  ],
+  "departments": [
+    {
+      "id": 1,
+      "name": "Arts",
+      "description": "Focused on Civil Services preparation and Kirtan Shastra.",
+      "programs": ["B.A. (Civil Services)", "B.A. (Kirtan Shastra)"],
+      "icon": "FaBook",
+      "facultyCount": "10+",
+      "labsCount": "0",
+      "image": "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+    }
+  ],
+  "academicCalendar": [],
+  "evaluationSystem": {
+    "title": "Evaluation System",
+    "description": "Continuous and comprehensive evaluation based on University guidelines.",
+    "methods": [
+      { "title": "University Exams", "description": "Conducted at the end of each semester/year." }
+    ]
+  },
+  "library": {
+    "title": "Library Resources",
+    "description": "A well-equipped library with essential resources for civil services preparation."
+  },
+  "resources": []
+}

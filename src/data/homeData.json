@@ -1,0 +1,30 @@
+{
+  "hero": {
+    "collegeName": "Shri Nathuram Maharaj Mahavidyalaya",
+    "affiliated": "Affiliated to Kavikulaguru Kalidas Sanskrit University, Ramtek, Nagpur",
+    "naacGrade": "Maharashtra Government Recognized",
+    "aisheCode": "Kehal, Tal. Jiintur",
+    "ugcRecognition": "Dist. Parbhani 431510",
+    "bgImages": ["https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80"]
+  },
+  "principal": {
+    "name": "Dr. Balaji Munde",
+    "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+    "message": "Welcome to Shri Nathuram Maharaj Mahavidyalaya. We are dedicated to providing excellent education with a focus on Civil Services (MPSC/UPSC) preparation and the traditional Kirtan Shastra."
+  },
+  "about": {
+    "intro": "Located in Kehal Tanda, our college offers specialized B.A. programs designed for future civil servants and those interested in Maharashtra's rich Kirtan traditions.",
+    "vision": "To empower students with the knowledge and values needed to excel in civil services and preserve cultural heritage.",
+    "mission": "To impart high-quality education and training for competitive exams, fostering ethical leadership and academic excellence."
+  },
+  "achievements": [
+    { "id": 1, "title": "Civil Services Prep", "category": "MPSC/UPSC" },
+    { "id": 2, "title": "Govt. Scholarships", "category": "All Categories" },
+    { "id": 3, "title": "Kirtan Shastra", "category": "Unique BA" },
+    { "id": 4, "title": "Govt. Recognized", "category": "Maharashtra" }
+  ],
+  "cta": {
+    "title": "Admissions Open",
+    "subtitle": "Join our specialized B.A. programs today and start your journey towards success. Scholarships available for ST, SC, VJNT, OBC & OPEN categories."
+  }
+}

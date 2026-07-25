@@ -1,0 +1,4 @@
+[
+  { "id": 1, "name": "B.A. (Civil Services)", "duration": "3 Years", "seats": 60, "description": "Specialized degree for MPSC / UPSC exam preparation. Compulsory Subjects: Sanskrit, English, General Studies (I), General Studies (II). Optional Subjects: History, Geography, Political Science, Mathematics, Economics, Public Administration, Sociology." },
+  { "id": 2, "name": "B.A. (Kirtan Shastra)", "duration": "3 Years", "seats": 60, "description": "Degree focused on the study and practice of Maharashtra's rich Kirtan tradition." }
+]
