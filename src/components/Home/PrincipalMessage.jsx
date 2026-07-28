@@ -16,7 +16,12 @@ const PrincipalMessage = () => {
           >
             <div className="relative">
               <div className="absolute inset-0 bg-primary translate-x-4 translate-y-4 rounded-xl"></div>
-              <img src={principal.image} alt={principal.name} className="relative z-10 rounded-xl w-full object-cover shadow-lg border-4 border-white dark:border-gray-800" />
+              <img 
+                src="/Principal_Guge.png" 
+                alt="Principal" 
+                className="relative z-10 rounded-xl w-full object-cover object-top shadow-lg border-4 border-white dark:border-gray-800" 
+                style={{ imageRendering: '-webkit-optimize-contrast' }}
+              />
             </div>
           </motion.div>
           <motion.div 

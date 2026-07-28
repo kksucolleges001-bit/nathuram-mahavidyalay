@@ -10,37 +10,42 @@
     "governanceModel": "We follow a student-first approach."
   },
   "principal": {
-    "name": "Dr. Balaji Munde",
+    "name": "Dr. Yogesh Ghuge",
     "qualification": "Principal",
     "designation": "Principal",
-    "experience": "",
+    "experience": "10+ years in academic leadership and administration.",
     "email": "shrinathurammcollegekehal@gmail.com",
-    "phone": "9421425663",
+    "phone": "7744882353",
     "message": "Welcome to Shri Nathuram Maharaj Mahavidyalaya.",
     "researchInterests": [],
     "awards": [],
-    "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+    "image": "/Principal_Guge.png"
   },
   "vicePrincipal": null,
   "registrar": null,
   "deans": [],
   "hods": [],
   "governingBody": [
-    { "id": 1, "name": "Dr. Balaji Munde", "designation": "Principal", "role": "Principal", "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" }
+    { "id": 1, "name": "Dr. Yogesh Ghuge", "designation": "Principal", "role": "Principal", "image": "/Principal_Guge.png" }
   ],
   "officeInfo": {
     "timings": "09:00 AM to 05:00 PM",
     "workingDays": "Monday to Saturday",
-    "contact": "7744882353",
+    "contact": "7776808109 ",
     "email": "makesocialharmony@gmail.com",
     "location": "At Kehal Tanda, Kehal, Tal. Jiintur",
     "reception": "For general queries, contact the admissions office."
   },
   "staff": [
-    { "id": 1, "name": "Yogesh Sir", "position": "Admissions Contact", "department": "Administration", "contact": "7744882353", "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" },
-    { "id": 2, "name": "Mangesh Sir", "position": "Admissions Contact", "department": "Administration", "contact": "7378835218", "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" },
-    { "id": 3, "name": "Kundlik Sir", "position": "Admissions Contact", "department": "Administration", "contact": "9130858358", "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" },
-    { "id": 4, "name": "Shailesh Sir", "position": "Admissions Contact", "department": "Administration", "contact": "7822984415", "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" }
+    { "id": 2, "name": "Mrs. Lalita N Nagargoje", "position": "President", "department": "Gramin Yuvak Pratishthan", "contact": "", "email": "", "image": "./Mrs._Lalita_N_Nagargoje.png" },
+    { "id": 3, "name": "Prof. Dr. Balaji Munde", "position": "Secretary", "department": "Gramin Yuvak Pratishthan", "contact": "", "email": "", "image": "/Prof._Dr._Balaji_Munde.png" },
+    { "id": 1, "name": "Dr. Yogesh Vinayakrao Ghuge", "position": "Principal (Incharge)", "department": "Political Science", "contact": "7744882353", "email": "yogeshghuge101@gmail.com", "image": "/Principal_Guge.png" },
+    { "id": 7, "name": "Mr. Mangesh Vinayakrao Ghuge", "position": "Superintendent", "department": "Administration", "contact": "7378835218", "email": "mangeshghuge1987@gmail.com", "image": "/Mr._Mangesh_Ghuge.png"  },
+    { "id": 4, "name": "Prof. Shailesh Ghuge", "position": "Asst. Prof", "department": "General Studies", "contact": "7276777278", "email": "", "image": "./Prof._Shailesh_Ghuge.png" },
+    { "id": 6, "name": "Prof. Sachin Balasaheb Ghuge", "position": "Asst. Prof", "department": "English", "contact": "9096369676", "email": "sachinagricoss@gmail.com", "image": "/Prof_Sachin_Ghuge.png" },
+    { "id": 5, "name": "Dr. Varsha Dilip Nagargoje", "position": "Asst. Prof", "department": "Hindi / Sanskrit", "contact": "9322473562", "email": "varshanagargoje84@gmail.com", "image": "/Mrs. Lalita N Nagargoje.png" },
+    { "id": 8, "name": "Mr. Vishnu Mahadu Ghandare", "position": "Clerk", "department": "Administration", "contact": "7776808109", "email": "vmghandare19@gmail.com", "image": "" },
+    { "id": 9, "name": "Mr. Shailesh Vishnu Sonune", "position": "Peon", "department": "Administration", "contact": "7822984415", "email": "sonuneshailesh14@gmail.com", "image": "" }
   ],
   "committees": [],
   "policies": [],

@@ -26,7 +26,7 @@ const InstitutionalInfo = () => {
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 border-b border-gray-200 dark:border-gray-700 pb-4">
                 <span className="text-gray-500 font-medium">AISHE Code</span>
-                <span className="sm:col-span-2 font-bold text-danger">{institutionalInfo.aisheCode}</span>
+                <span className="sm:col-span-2 font-bold text-danger">C-68450</span>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 border-b border-gray-200 dark:border-gray-700 pb-4">
                 <span className="text-gray-500 font-medium">UGC Rec. No.</span>
@@ -34,11 +34,11 @@ const InstitutionalInfo = () => {
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 border-b border-gray-200 dark:border-gray-700 pb-4">
                 <span className="text-gray-500 font-medium">Principal</span>
-                <span className="sm:col-span-2 font-bold text-gray-900 dark:text-white">{institutionalInfo.principal}</span>
+                <span className="sm:col-span-2 font-bold text-gray-900 dark:text-white">Dr. Yogesh Vinayakrao Ghuge</span>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
                 <span className="text-gray-500 font-medium">Management</span>
-                <span className="sm:col-span-2 font-bold text-gray-900 dark:text-white">{institutionalInfo.management}</span>
+                <span className="sm:col-span-2 font-bold text-gray-900 dark:text-white">Gramin Yuvak Pratishthan</span>
               </div>
             </div>
           </div>
@@ -48,9 +48,9 @@ const InstitutionalInfo = () => {
               <h3 className="text-2xl font-bold mb-6 flex items-center text-secondary"><FaMapMarkerAlt className="mr-3" /> Contact & Location</h3>
               <div className="space-y-4">
                 <p className="flex items-start"><FaMapMarkerAlt className="mt-1 mr-3 text-secondary" /> <span>{institutionalInfo.address}<br/>Campus Area: {institutionalInfo.campusArea}</span></p>
-                <p className="flex items-center"><FaPhoneAlt className="mr-3 text-secondary" /> {institutionalInfo.phone}</p>
-                <p className="flex items-center"><FaEnvelope className="mr-3 text-secondary" /> {institutionalInfo.email}</p>
-                <p className="flex items-center"><FaGlobe className="mr-3 text-secondary" /> {institutionalInfo.website}</p>
+                <p className="flex items-center"><FaPhoneAlt className="mr-3 text-secondary" />7744882353 / 7378835218</p>
+                <p className="flex items-center"><FaEnvelope className="mr-3 text-secondary" />shrinathurammcollegekehal@gmail.com</p>
+                <p className="flex items-center"><FaGlobe className="mr-3 text-secondary" /> <a href="https://kksucollege.netlify.app/" target="_blank" rel="noopener noreferrer" className="hover:text-secondary">https://kksucollege.netlify.app/</a></p>
               </div>
             </div>
             
